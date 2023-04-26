@@ -10,8 +10,7 @@ formEl.addEventListener("submit", (e) => {
       email: email.value,
       password: password.value,
     };
-    console.log("email: ", result.email);
-    console.log("password: ", result.password);
+    console.log(result);
   }
   e.target.reset();
 });
